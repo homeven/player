@@ -35,9 +35,11 @@ ANativeWindow_unlockAndPost(window);
 
 在NDK中使用ANativeWindow编译时需要链接NDK中的`libandroid.so`库
 
-```cmake
-#编译链接NDK/platforms/android-X/usr/lib/libandroid.so
+编译链接NDK/platforms/android-X/usr/lib/libandroid.so
 target_link_libraries(XXX android )
+
+
+
 
 #2、AudioChannel
      该类的音频播放采用的是 OpenSL ES
