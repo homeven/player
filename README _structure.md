@@ -39,10 +39,10 @@ ANativeWindow_unlockAndPost(window);
 #编译链接NDK/platforms/android-X/usr/lib/libandroid.so
 target_link_libraries(XXX android )
 
-#2、VideoChannel
+#2、AudioChannel
      该类的音频播放采用的是 OpenSL ES
-     
-?    Android的OpenSL ES库同样位于NDK的platforms文件夹内。关于OpenSL ES的使用可以进入ndk-sample查看native-audio工程:https://github.com/googlesamples/android-ndk/blob/master/native-audio/app/src/main/cpp/native-audio-jni.c
+     Android的OpenSL ES库同样位于NDK的platforms文件夹内。关于OpenSL ES的使用可以进入ndk-sample查看native-audio工程:https://github.com/googlesamples/android-ndk/blob/master/native-audio/app/src/main/cpp/native-audio-jni.c
+
 
 OpenSL ES的开发流程主要有如下7个步骤：
 ?   1、创建接口对象
